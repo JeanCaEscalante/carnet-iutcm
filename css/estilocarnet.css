@@ -1,0 +1,111 @@
+.fondo{
+	position: relative;
+}
+
+.Nombres{
+	 position:absolute;
+	 top:550px;
+	 left:277px;
+	 border:none;
+}
+.Apellidos{
+	position:absolute;
+	top:570px;
+	left:277px;
+	border:none;
+}
+
+.Cedula{
+	 position:absolute;
+	 top:597px;
+	 left:27%;
+	 border:none;
+
+}
+
+
+.Semestre{
+	position:absolute;
+	top:662px;
+	left:277px;
+	border:none;
+}
+
+.Foto{
+
+	position:absolute;
+	top:51%;
+	left:62%;
+	border:none;
+}
+
+.Valido{
+	position:absolute;
+	top:725px;
+	left:57%;
+	border:none
+
+}
+
+.Valido label{
+	font: Arial;
+	font-size: 17px;
+	color: #000;
+
+}
+
+label{
+	font: Arial;
+	font-size: 20px;
+	color: #000;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media screen and (max-width: 768px) { 
+
+ }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+ }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+ }
+
+@media screen and (min-width: 1200px) {
+.Nombres{
+	 top:546px;
+	 left:317px;
+}
+.Apellidos{
+	top:570px;
+	left:317px;
+}
+
+.Cedula{
+	 top:597px;
+	 left:355px;
+}
+
+
+.Semestre{
+	top:660px;
+	left:317px;
+}
+
+.Foto{
+
+	top:51%;
+	left:61%;
+}
+
+.Valido{
+	top:725px;
+	left:56%;
+}
+
+}
+
+

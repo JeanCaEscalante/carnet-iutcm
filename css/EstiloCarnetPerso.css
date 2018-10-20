@@ -1,0 +1,65 @@
+.fondo{
+	position: relative;
+}
+
+.Nombres{
+	 position:absolute;
+	 top:540px;
+	 left:600px;
+	 border:none;
+}
+.Apellidos{
+	position:absolute;
+	top:540px;
+	left:680px;
+	border:none;
+}
+
+.Cedula{
+	 position:absolute;
+	 top:563px;
+	 left:51%;
+	 border:none;
+
+}
+
+
+.Cargo{
+	position:absolute;
+	top:588px;
+	left:46%;
+	border:none;
+}
+
+.Cargo label{
+	font-size: 17px!important;
+}
+.Foto{
+
+	position:absolute;
+	top:45%;
+	left:48%;
+	border:none;
+}
+
+.Valido{
+	position:absolute;
+	top:663px;
+	left:58%;
+	border:none
+
+}
+
+.Valido label{
+	font: Arial;
+	font-size: 17px;
+	color: #000;
+
+}
+
+label{
+	
+	font: Arial;
+	font-size: 20px;
+	color:#334F65;
+}
